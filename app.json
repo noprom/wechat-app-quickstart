@@ -5,8 +5,30 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "HelloWorld",
-    "navigationBarTextStyle":"black"
-  }
+    "backgroundColor": "#EFEFF4",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Wechat",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#1FB922",
+    "backgroundColor": "#F7F7FA",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "assets/images/snapchat.png",
+      "selectedIconPath": "assets/images/snapchat.png"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath": "assets/images/twitter.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
 }
